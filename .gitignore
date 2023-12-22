@@ -171,6 +171,3 @@ cython_debug/
 
 /user_files
 /samplepdfs
-*.ipynb
-*.png
-*.jpg
