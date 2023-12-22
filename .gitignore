@@ -169,6 +169,7 @@ cython_debug/
 *_rq.py
 
 
+
 /user_files
 /samplepdfs
-.venv*
+.venv_openaiv1/
