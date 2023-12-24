@@ -3,3 +3,5 @@ python-dotenv
 requests
 pillow
 fastapi[all]
+aiohttp
+aiofiles
