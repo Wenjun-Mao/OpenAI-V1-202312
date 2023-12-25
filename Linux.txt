@@ -1,0 +1,23 @@
+<<centOS 8.4>>
+
+#### Check the current Linux Version ####
+[root@iZrj9hs45gszmk7ht24b2wZ ~]# lsb_release -d
+Description:    CentOS Linux release 8.4.2105
+
+
+#### Install Python ####
+sudo dnf install python39
+
+
+#### Install python packages ####
+mkdir pic_exp
+cd pic_exp/
+
+python3.9 -m  venv .venv_picexp
+source .venv_picexp/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt -i https://pypi.org/simple/
+
+
+#### Start the service ####
+nohup python -m post_endpoint &
