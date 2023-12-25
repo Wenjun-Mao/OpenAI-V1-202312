@@ -172,4 +172,6 @@ cython_debug/
 
 /user_files
 /samplepdfs
-.venv_openaiv1/
+.venv_picexp/
+api_incoming/
+*.png
